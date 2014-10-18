@@ -1,5 +1,5 @@
 <?php
-  if(!isset($_POST)){//if there is no a post date, create a form to input data
+  if(!isset($_POST)){//if there is no any post data, create a form to input data
 		print <<<FORM
 		<form method="POST" action="$_SERVER[PHP_SELF]">
 		<p>email : <input type="email" name="email"></p>
