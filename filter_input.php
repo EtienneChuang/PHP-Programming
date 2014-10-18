@@ -48,3 +48,4 @@ FORM;
 	else{
 		echo "url is valid<br/>";
 	}
+?>
