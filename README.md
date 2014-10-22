@@ -3,7 +3,7 @@ PHP-Programming
 
 Notes, codes, solutions to question.
 
-<a href="#filter">filter</a> | <a href="#eval">eval()</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | 
+<a href="#filter">filter</a> | <a href="#eval">eval()</a> | <a href="str">string</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | 
 
 <h4 id="#filter">FILTER</h4>
 <hr/>
@@ -16,7 +16,7 @@ Notes, codes, solutions to question.
   <li>...</li>
   <li>...</li>
 </ul>
-<h4 id="#eval">eval()</h4>
+<h4 id="#eval">EVAL()</h4>
 <hr/>
 Used to evaluate a string as a PHP code, the string must be valid PHP code.<br>
 For example:
@@ -31,3 +31,23 @@ To evaluate the value of $greeting in string varable $str, we need to used <code
   echo $str; //print "hello world"
 </pre>
 Then the result will be <i><b>hello world!</b></i>.
+<h4 id="#str">STRING</h4>
+<ul>
+  <li><code>addcslashes()</code></li>
+    Used to add backslash in front of the specified characters. <br/>
+    For example: 
+    <code>
+      $str = addcslashes("Hello World!","W");
+      echo $str; 
+    </code>
+    The result will be: Hello \World!
+  <li><code>addslashes()</code></li>
+    Used to add backslash in front of the predefined caracters. <br/>
+    For example:
+    <code>
+      $str = addslashes("What is 'this'?");
+      echo $str;
+    </code>
+    The result will be: What is \'this\'?<br/>
+    The predefined characters are: single quote('), double quote("), backslash(\), NULL
+</ul>
