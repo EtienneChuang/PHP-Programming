@@ -3,7 +3,7 @@ PHP-Programming
 
 Notes, codes, solutions to question.
 
-<a href="#filter">filter</a> | <a href="#eval">eval()</a> | <a href="#str">string</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | 
+<a href="#filter">filter</a> | <a href="#eval">eval()</a> | <a href="#string">string</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | <a href="">link</a> | 
 
 <h4 id="#filter">FILTER</h4>
 <hr/>
@@ -31,7 +31,7 @@ To evaluate the value of $greeting in string varable $str, we need to used <code
   echo $str; //print "hello world"
 </pre>
 Then the result will be <i><b>hello world!</b></i>.
-<h4 id="#str">STRING</h4>
+<h4 id="#string">STRING</h4>
 <ul>
   <li><code>addcslashes()</code></li>
     Used to add backslash in front of the specified characters. <br/>
