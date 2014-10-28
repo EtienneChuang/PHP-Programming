@@ -50,4 +50,10 @@ Then the result will be <i><b>hello world!</b></i>.
     </code>
     The result will be: What is \'this\'?<br/>
     The predefined characters are: single quote('), double quote("), backslash(\), NULL
+  <li><code>bin2hex()</code></li>
+    Used to convert ASCII characters to hexadecimal values.<br/>
+  <li><code></code></li>
+  <li><code></code></li>
+  <li><code></code></li>
+  <li><code></code></li>
 </ul>
