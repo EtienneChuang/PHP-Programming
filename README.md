@@ -71,7 +71,7 @@ Then the result will be <i><b>hello world!</b></i>.
       $str = "Hello World!";
       echo chunk_split($str, 1, "."); //output H.e.l.l.o. .W.o.r.l.d.!.
   <li><code>convert_uudecode()</code></li>
-    Decodes a uuencoded string. What is<a href="http://en.wikipedia.org/wiki/Uuencoding">uuencode</a>?
+    Decodes a uuencoded string. What is <a href="http://en.wikipedia.org/wiki/Uuencoding">uuencode</a>?
   <li><code>convert_uuencode()</code></li>
     Encodes a string using uuencode algorithm.
   For example:
