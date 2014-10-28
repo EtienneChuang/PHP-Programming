@@ -32,6 +32,7 @@ To evaluate the value of $greeting in string varable $str, we need to used <code
 </pre>
 Then the result will be <i><b>hello world!</b></i>.
 <h4 id="#string">STRING</h4>
+<hr>
 <ul>
   <li><code>addcslashes()</code></li>
     Used to add backslash in front of the specified characters. <br/>
@@ -52,11 +53,37 @@ Then the result will be <i><b>hello world!</b></i>.
     The predefined characters are: single quote('), double quote("), backslash(\), NULL
   <li><code>bin2hex()</code></li>
     Used to convert ASCII characters to hexadecimal values.<br/>
-  <li><code></code></li>
-  <li><code></code></li>
-  <li><code></code></li>
-  <li><code></code></li>
-  <li><code></code></li>
-  <li><code></code></li>
+  <li><code>chop()</code></li>
+    Used to remove a whitespace or characters from right end of a string.<br>
+    syntax: <code>chop(string, charList)</code>, the following will be removed if the <i>charList</i> is empty:
+    <i>\0</i><i>\t</i><i>\n</i><i>\x0B</i><i>\r</i><i> (white space)</i>
+    For example:
+    <code>
+      $str = "Hello world!";
+      echo chop($str, "world!"); //output Hello;
+    </code>
+  <li><code>chr()</code></li>
+    Return a character from specified ASCII value. 
+  <li><code>chunk_spilt()</code></li>
+    Split a a string into smaller part.<br>
+    For example:
+    <code>
+      $str = "Hello World!";
+      echo chunk_split($str, 1, "."); //output H.e.l.l.o. .W.o.r.l.d.!.
+  <li><code>convert_uudecode()</code></li>
+    Decodes a uuencoded string. What is<a href="http://en.wikipedia.org/wiki/Uuencoding">uuencode</a>?
+  <li><code>convert_uuencode()</code></li>
+    Encodes a string using uuencode algorithm.
+  For example:
+  <code>
+    $str = "Hello world!";
+    // Encode the string
+    $encodeString = convert_uuencode($str);
+    echo $encodeString . "<br>"; //output ,2&5L;&\@=V]R;&0A 
+    // Decode the string
+    $decodeString = convert_uudecode($encodeString);
+    echo $decodeString; //output Hello world!
+  <li><code>count_chars()</code></li>
+    Return infomation about characters used in a string.
   <li><code></code></li>
 </ul>
