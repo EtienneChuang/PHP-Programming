@@ -75,7 +75,7 @@ Then the result will be <i><b>hello world!</b></i>.
   <li><code>convert_uuencode()</code></li>
     Encodes a string using uuencode algorithm.
   For example:
-  <code>
+  <pre><code>
     $str = "Hello world!";
     // Encode the string
     $encodeString = convert_uuencode($str);
@@ -83,6 +83,7 @@ Then the result will be <i><b>hello world!</b></i>.
     // Decode the string
     $decodeString = convert_uudecode($encodeString);
     echo $decodeString; //output Hello world!
+  </code></pre>
   <li><code>count_chars()</code></li>
     Return infomation about characters used in a string.
   <li><code></code></li>
