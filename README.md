@@ -75,15 +75,13 @@ Then the result will be <i><b>hello world!</b></i>.
   <li><code>convert_uuencode()</code></li>
     Encodes a string using uuencode algorithm.<br>
   For example:
-  <pre>
+  <code>
     $str = "Hello world!";
-    // Encode the string
     $encodeString = convert_uuencode($str);
     echo $encodeString . "<br>"; //output ,2&5L;&\@=V]R;&0A 
-    // Decode the string
     $decodeString = convert_uudecode($encodeString);
     echo $decodeString; //output Hello world!
-  </pre>
+  </code>
   <li><code>count_chars()</code></li>
     Return infomation about characters used in a string.
   <li><code></code></li>
